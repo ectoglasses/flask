@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     name="Flask",
     install_requires=[
-        "Werkzeug @ git+ssh://git@github.com:ectoglasses/werkzeug.git@v2.0#egg=Werkzeug",
+        "Werkzeug @ git+https://github.com/ectoglasses/werkzeug.git@v2.0#egg=Werkzeug",
         "Jinja2 >= 3.0",
         "itsdangerous >= 2.0",
         "click >= 8.0",
