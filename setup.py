@@ -5,7 +5,7 @@ setup(
     name="Flask",
     install_requires=[
         "Werkzeug @ git+https://github.com/ectoglasses/werkzeug.git#egg=Werkzeug",
-        "Jinja2 >= 3.0",
+        "Jinja2 @ git+https://github.com/ectoglasses/jinja.git#egg=Jinja2",
         "itsdangerous >= 2.0",
         "click >= 8.0",
     ],
