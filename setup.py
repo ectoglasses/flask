@@ -6,8 +6,8 @@ setup(
     install_requires=[
         "Werkzeug @ git+https://github.com/ectoglasses/werkzeug.git#egg=Werkzeug",
         "Jinja2 @ git+https://github.com/ectoglasses/jinja.git#egg=Jinja2",
-        "itsdangerous >= 2.0",
-        "click >= 8.0",
+        "itsdangerous @ git+https://github.com/ectoglasses/itsdangerous.git#egg=itsdangerous",
+        "click @ git+https://github.com/ectoglasses/click.git#egg=click",
     ],
     extras_require={
         "async": ["asgiref >= 3.2"],
